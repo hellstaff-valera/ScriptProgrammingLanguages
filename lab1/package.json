@@ -1,0 +1,19 @@
+// package.json
+{
+	"name": "lab1",
+	"version": "1.0.0",
+	"description": "Server",
+	"main": "start.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"author": "Kravchenko Valery",
+	"dependencies": {
+		"dotenv": "^16.0.3",
+		"express": "^4.18.1"
+	},
+	"devDependencies": {
+		"jest": "^29.1.2",
+		"supertest": "^6.3.0"
+	}
+}
