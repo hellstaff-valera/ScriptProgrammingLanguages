@@ -1,8 +1,8 @@
+// config.js
 const convict = require('convict');
 const convict_format_with_validator = require('convict-format-with-validator');
-require('dotenv').config();
-
 convict.addFormats(convict_format_with_validator);
+require('dotenv').config();
 
 const config = convict({
 	env: {
