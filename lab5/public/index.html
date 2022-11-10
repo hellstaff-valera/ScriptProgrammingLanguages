@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Таблиця працівниців</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<form class="decor" name="employeeForm">
+		<div class="form-left-decoration"></div>
+		<div class="form-right-decoration"></div>
+		<div class="circle"></div>
+		<div class="form-inner">
+			<h3>Працівник</h3>
+			<input type="hidden" name="id" value="0">
+			<input name="name" placeholder="ФІО">
+			<input name="age" placeholder="Вік">
+			<input name="solary" placeholder="Заробітна плата">
+			<a id="reset">Очистити форму</a>
+			<input type="submit" value="Зберегти">
+		</div>
+	</form>
+
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>ФІО</th>
+				<th>Вік</th>
+				<th>Заробітна плата</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+	</table>
+
+	<script src="script.js"></script>
+
+</body>
+
+</html>
